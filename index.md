@@ -9,4 +9,13 @@
 *Conclusion* Even using substitute patterns as prior information can alter vaccine decision-making. Therefore, we would advocate that in the absence of country-specific contact patterns, structural uncertainty analysis should be undertaken when quantifying the effect of strategies that involve herd immunity.
 
 ### Data Sources
-We obtained contact data from multiple sources most notably the POLYMOD study (Mossong et al., 2008), but also from similar studies in Zimbabwe, Peru, and France. 
+We obtained contact data from multiple sources most notably the POLYMOD study (Mossong et al., 2008), but also from similar studies in Zimbabwe, Peru, and France using the [Zenodo database](https://zenodo.org/communities/social_contact_data?page=1&size=20). Raw survey data  was downloaded and weighted by contacts for weekday vs weekend following the method described by Baguelin et al. (2015) using the code in [INPUT_polymod_pull](https://github.com/tajwenzel/IntlSens/blob/master/INPUT_polymod_pull.R). 
+
+#### Other Data
+
+Other data which was needed for these analyses are included in the repository:
+* Vaccine uptake rate functions for final coverage estimated at 30%, 55%, and 70% starting on September 1st and continuing till December 12th in [cov.function30.Rdata](https://github.com/tajwenzel/IntlSens/blob/master/cov.function30.RData), [cov.function55.Rdata](https://github.com/tajwenzel/IntlSens/blob/master/cov.function55.RData), [cov.function70.Rdata](https://github.com/tajwenzel/IntlSens/blob/master/cov.function70.RData), respectively.
+* New LAIV and TIIV vaccine costs by delivery method laid out in Supplemental Section, Table 5.
+* Prior distributions for Markov chain Monte Carlo laid out in Supplemental Section Table 3.
+* Incidence of Influenza-like-illnesses from 1995-2009 in the UK obtained from the 'fluEvidenceSynthesis' R package. 
+
