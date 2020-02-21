@@ -38,5 +38,13 @@ The file [Intl_general_parameters](https://github.com/tajwenzel/IntlSens/blob/ma
  
  'fname' refers to the different abbreviations for each country (e.g. DE for Germany, NL for the Netherlands). 'allpolymod' contains the files names for all the contact surveys (e.g. DEtable11.csv) which refers to the german survey stratified into 11 age groups. 
  
+## Fitting the model via Markov chain Monte Carlo
 
+## Running simulations with your posteriors
+
+## Calculating health outcomes and associated costs
+
+### Calculating the reproductive number 
+
+### Examining the posterior contact matrix for each country's simulation
 
